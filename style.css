@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: lightgrey;     
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial;
+} 
+
+h2 {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(79, 15, 15);
+    color: white;
+    padding: 30px;
+  } 
+
+  h1:hover {
+    color: rgb(79, 15, 15);;
+  }
+
+  h2:hover {
+    color: black;
+  }
+
+header {
+  background-color: grey;
+  text-align: center;
+  width: 100vw;
+}
+
+article {
+  background-color: whitesmoke;
+  font-family: Arial;
+}
+
+article p {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0;
+  padding: 30px;
+}
+
+footer {
+    clear: both;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+@media screen and (max-width:600px) {
+  .hlavni-stred { 
+  width:100%;
+}
+
+header {
+  display: grid;
+  padding: 5px;
+}
+
+article {
+  display: grid;
+  text-align: center;
+  padding: 8px;
+}
+  } 
+
